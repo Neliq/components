@@ -32,7 +32,7 @@ const Button = () => {
         }}
     >
       <span className="text-white tracking-wide font-light h-full w-full block relative linear-mask">
-        Start now
+        Button label
       </span>
       <span className="block absolute inset-0 rounded-md p-[2px] linear-overlay" />
     </motion.button>
