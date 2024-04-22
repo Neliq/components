@@ -1,0 +1,23 @@
+.border-checkbox {
+  box-shadow: 0 0 0 2px #272727 inset;
+}
+
+
+.radial-gradient {
+    background: radial-gradient(
+      circle at 50% 0%,
+      rgba(var(--radial-gradient-background), 0.05) 0%,
+      transparent 60%
+    )
+    rgba(var(--solid-color-background), 1);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .radial-gradient:hover {
+    background: radial-gradient(
+      circle at 50% 0%,
+      rgba(var(--radial-gradient-background), 0.05) 0%,
+      transparent 60%
+    )
+    rgba(var(--solid-color-background-hover), 1);
+  }
